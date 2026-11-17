@@ -1,5 +1,5 @@
-# Ex02 Time Table
-## Date:
+# Ex04 Time Table
+## Date:17.11.26
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -27,10 +27,135 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+<html>
+<head>
+    <title>Experiment 4</title>
+</head>
+<body>
+<center>
+    <img src="logo.png" width="800" height="150">
+</center>
+</body>
+<h1 align="center">
+    SLOT TIME TABLE - DINESH N (26019310)
+</h1>
 
+<table border="2" cellpadding="10" cellspacing="1" align="center" bordercolor="black" width="800" height="150">
+
+    <tr bgcolor="yellow" align="center">
+        <th>Day/Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+    </tr>
+
+    <tr bgcolor="cyan" align="center">
+        <td bgcolor="yellow">8:00-10:00</td>
+        <td>MAT</td>
+        <td>EDM</td>
+        <td>FWAD</td>
+        <td>English</td>
+        <td>PY</td>
+        <td>FREE SLOT</td>
+    </tr>
+
+    <tr bgcolor="cyan" align="center">
+        <td bgcolor="yellow">10:00-12:00</td>
+        <td>PY</td>
+        <td>FWAD</td>
+        <td>FREE SLOT</td>
+        <td>FREE SLOT</td>
+        <td>FWAD</td>
+        <td>BEE</td>
+    </tr>
+
+    <tr bgcolor="cyan" align="center">
+        <td bgcolor="yellow">12:00-01:00</td>
+        <td colspan="6" align="center">LUNCH BREAK</td>
+    </tr>
+
+    <tr bgcolor="cyan" align="center">
+        <td bgcolor="yellow">01:00-03:00</td>
+        <td>FWAD</td>
+        <td>MAT</td>
+        <td>FREE SLOT</td>
+        <td>CME</td>
+        <td>FREE SLOT</td>
+        <td>FREE SLOT</td>
+    </tr>
+
+
+    <tr bgcolor="cyan" align="center">
+        <td bgcolor="yellow">03:00-05:00</td>
+        <td>MAT</td>
+        <td>FREE SLOT</td>
+        <td>FREE SLOT</td>
+        <td>FREE SLOT</td>
+        <td>EDM</td>
+        <td>EDM</td>
+    </tr>
+
+</table>
+
+<h2> 
+
+
+
+
+</h2>
+
+
+<table border="2" cellpadding="10" cellspacing="3" align="center" bordercolor="black" width="800" height="150">
+    <tr align="center">
+        <th>S.No.</th>
+        <th>Subject Code</th>
+        <th>Subject Name</th>
+    </tr>
+    <tr align="center">
+        <td>1.</td>
+        <td>19AI301</td>
+        <td>Python Programming (PY)</td>
+    </tr>
+    <tr align="center">
+        <td>2.</td>
+        <td>19AI1414</td>
+        <td>Fundamentals of Web Application Development (FWAD)</td>
+    </tr>
+    <tr align="center">
+        <td>3.</td>
+        <td>19MA201</td>
+        <td>Calculus and Matrix Algebra (MAT)</td>
+    </tr>
+    <tr align="center">
+        <td>4.</td>
+        <td>19CS305</td>
+        <td>Computer Architecture (CA)</td>
+    </tr>
+    <tr align="center">
+        <td>5.</td>
+        <td>19EY708</td>
+        <td>Career Development Skills (CDS)</td>
+    </tr> 
+    <tr align="center">
+        <td>6.</td>
+        <td>19EN101</td>
+        <td>COmmunicative English (CME)</td>
+    </tr>
+    <tr align="center">
+        <td>7.</td>
+        <td>19AI302</td>
+        <td>Engineering Design and Modelling (EDM)1</td>
+    </tr>        
+</table>
+
+</body>
+</html>
 
 ## OUTPUT
-
+![alt text](<Screenshot (36).png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
