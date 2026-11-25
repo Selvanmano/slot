@@ -30,133 +30,140 @@ Execute the program using runserver command.
 ```
 <html>
 <head>
-    <title>Experiment 4</title>
+    <title>Time Table</title>
 </head>
-<body>
-<center>
-    <img src="logo.png" width="800" height="150">
-</center>
-</body>
-<h1 align="center">
-    SLOT TIME TABLE - DINESH N (26019310)
-</h1>
 
-<table border="2" cellpadding="10" cellspacing="1" align="center" bordercolor="black" width="800" height="150">
+<body align="center">
 
-    <tr bgcolor="yellow" align="center">
-        <th>Day/Time</th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
+    <img src="logo.png" height="100" width="400">
+     <h1>SLOT TIME TABLE - Selvanmano.s(26000969)</h1>
+<table  align="center" border="5" cellpadding="12" cellpadding="2">
+    <tr bgcolor="yellow">
+        <th>DAY / TIME</th>
+        <th>8:00-9:30</th>
+        <th>9:45-11:14</th>
+        <th>11:15-1:14</th>
+        <th>1:15-2:45</th>
+        <th>3:00-4:30</th>
     </tr>
 
-    <tr bgcolor="cyan" align="center">
-        <td bgcolor="yellow">8:00-10:00</td>
-        <td>MAT</td>
-        <td>EDM</td>
-        <td>FWAD</td>
-        <td>English</td>
-        <td>PY</td>
-        <td>FREE SLOT</td>
+    <tr border="5" cellpadding="12" cellpadding="2">
+        <tr bgcolor="blue">
+        <td class="day">MONDAY</td>
+        <td class="subject">MATHS</td>
+        <td class="subject">EDM</td>
+        <td class="lunch">BREAK</td>
+        <td class="subject">FWAD</td>
+        <td class="subject">FREE SLOT</SLOT></td>
     </tr>
 
-    <tr bgcolor="cyan" align="center">
-        <td bgcolor="yellow">10:00-12:00</td>
-        <td>PY</td>
-        <td>FWAD</td>
-        <td>FREE SLOT</td>
-        <td>FREE SLOT</td>
-        <td>FWAD</td>
-        <td>BEE</td>
+    <tr  border="5" cellpadding="12" cellpadding="2">
+        <tr bgcolor="red">
+        <td class="day">TUESDAY</td>
+        <td class="free">FREE SLOT</td>
+        <td class="subject">FWAD</td>
+        <td class="lunch">BREAK</td>
+        <td class="subject">BEEE</td>
+        <td class="subject">FREE SLOT</td>
     </tr>
 
-    <tr bgcolor="cyan" align="center">
-        <td bgcolor="yellow">12:00-01:00</td>
-        <td colspan="6" align="center">LUNCH BREAK</td>
+    <tr  border="5" cellpadding="12" cellpadding="2">
+        <tr bgcolor="blue">
+        <td class="day">WEDNESDAY</td>
+        <td class="subject">MATHS</td>
+        <td class="free">FREE SLOT</td>
+        <td class="lunch">BREAK</td>
+        <td class="free">FREE SLOT</td>
+        <td class="subject">PYTHON</td>
     </tr>
 
-    <tr bgcolor="cyan" align="center">
-        <td bgcolor="yellow">01:00-03:00</td>
-        <td>FWAD</td>
-        <td>MAT</td>
-        <td>FREE SLOT</td>
-        <td>CME</td>
-        <td>FREE SLOT</td>
-        <td>FREE SLOT</td>
+    <tr  border="5" cellpadding="12" cellpadding="2">
+        <tr bgcolor="red">
+        <td class="day">THURSDAY</td>
+        <td class="subject">COMMUNICATIVE ENGLISH</td>
+        <td class="subject">EDM</td>
+        <td class="lunch">BREAK</td>
+        <td class="subject">FREE SLOT</td>
+        <td class="free">FREE SLOT</td>
     </tr>
 
+    <tr  border="5" cellpadding="12" cellpadding="2">
+        <tr bgcolor="blue">
+        <td class="day">FRIDAY</td>
+        <td class="subject">COMMUNICATIVE ENGLISH</td>
+        <td class="subject">EDM</td>
+        <td class="lunch">BREAK</td>
+        <td class="free">FREE SLOT</td>
+        <td class="free">FREE SLOT</td>
+    </tr>
 
-    <tr bgcolor="cyan" align="center">
-        <td bgcolor="yellow">03:00-05:00</td>
-        <td>MAT</td>
-        <td>FREE SLOT</td>
-        <td>FREE SLOT</td>
-        <td>FREE SLOT</td>
-        <td>EDM</td>
-        <td>EDM</td>
+    <tr  border="5" cellpadding="12" cellpadding="2">
+        <tr bgcolor="red">
+        <td class="day">SATURDAY</td>
+        <td class="free">PYTHON</td>
+        <td class="subject">FREE SLOT</td>
+        <td class="lunch">BREAK</td>
+        <td class="free">FREE SLOT</td>
+        <td class="free">FREE SLOT</td>
     </tr>
 
 </table>
+    <br>
+    <table align="center" border="5" cellpadding="12" cellpadding="2">
+        <br>
+        <tr bgcolor="yellow">
+            <th>S.No.</th>
+            <th>Subject Name</th>
+            <th>Subject Code</th>
+        </tr>
 
-<h2> 
+        <tr border="5" cellpadding="12" cellpadding="2">
+            <tr bgcolor="skyblue">
+            <td>1</td>
+            <td>Python Programming</td>
+            <td>19AI301</td>
+        </tr>
 
+        <tr border="5" cellpadding="12" cellpadding="2">
+            <tr bgcolor="yellow">
+            <td>2</td>
+            <td>calculus and matrix algebra</td>
+            <td>19MA201</td>
+        </tr>
 
+        <tr border="5" cellpadding="12" cellpadding="2">
+            <tr bgcolor="skyblue">
+            <td>3</td>
+            <td>Communication English</td>
+            <td>19EN101</td>
+        </tr>
 
+        <tr border="5" cellpadding="12" cellpadding="2">
+            <tr bgcolor="yellow">
+            <td>4</td>
+            <td>Engineering Design and Modelling</td>
+            <td>19AI302</td>
+        </tr>
 
-</h2>
+        <tr border="5" cellpadding="12" cellpadding="2">
+            <tr bgcolor="skyblue">
+            <td>5</td>
+            <td>Fundamental of Web Application Development</td>
+            <td>19AI414</td>
+        </tr>
 
-
-<table border="2" cellpadding="10" cellspacing="3" align="center" bordercolor="black" width="800" height="150">
-    <tr align="center">
-        <th>S.No.</th>
-        <th>Subject Code</th>
-        <th>Subject Name</th>
-    </tr>
-    <tr align="center">
-        <td>1.</td>
-        <td>19AI301</td>
-        <td>Python Programming (PY)</td>
-    </tr>
-    <tr align="center">
-        <td>2.</td>
-        <td>19AI1414</td>
-        <td>Fundamentals of Web Application Development (FWAD)</td>
-    </tr>
-    <tr align="center">
-        <td>3.</td>
-        <td>19MA201</td>
-        <td>Calculus and Matrix Algebra (MAT)</td>
-    </tr>
-    <tr align="center">
-        <td>4.</td>
-        <td>19CS305</td>
-        <td>Computer Architecture (CA)</td>
-    </tr>
-    <tr align="center">
-        <td>5.</td>
-        <td>19EY708</td>
-        <td>Career Development Skills (CDS)</td>
-    </tr> 
-    <tr align="center">
-        <td>6.</td>
-        <td>19EN101</td>
-        <td>COmmunicative English (CME)</td>
-    </tr>
-    <tr align="center">
-        <td>7.</td>
-        <td>19AI302</td>
-        <td>Engineering Design and Modelling (EDM)1</td>
-    </tr>        
-</table>
-
+        <tr border="5" cellpadding="12" cellpadding="2">
+            <tr bgcolor="yellow">
+            <td>6</td>
+            <td>Basic Electrical and Electronics Engineering</td>
+            <td>19EE305</td>
+        </tr>
+    </table>
 </body>
 </html>
 ```
 ## OUTPUT
-![alt text](<Screenshot (36).png>)
+![alt text](image.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
